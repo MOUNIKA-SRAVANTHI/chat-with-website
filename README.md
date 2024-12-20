@@ -33,31 +33,6 @@ Ensure the following are installed:
 - [Google Generative AI SDK](https://developers.generative.ai/)
 - [dotenv](https://pypi.org/project/python-dotenv/)
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/chat-with-pdf.git
-   cd chat-with-pdf
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Set up environment variables:
-   - Create a `.env` file in the project root.
-   - Add your Google API key:
-     ```env
-     GOOGLE_API_KEY=your_google_api_key_here
-     ```
-
-4. Run the application:
-   ```bash
-   streamlit run app.py
-   ```
-
----
 
 ## Usage
 
@@ -75,7 +50,6 @@ chat-with-pdf/
 |— requirements.txt       # Python dependencies
 |— .env                   # Environment variables (not included in the repo)
 |— faiss_index/           # Folder for FAISS index (created during runtime)
-```
 
 ---
 
@@ -101,4 +75,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 - [Streamlit](https://streamlit.io/)
 - [Google Generative AI](https://developers.generative.ai/)
 - [FAISS](https://github.com/facebookresearch/faiss)
-
